@@ -6,4 +6,14 @@
     tfoot td {
         text-align: left;
     }
+
+    tfoot > tr > td {
+        background-color: #f9f9f9 !important;
+        font-weight: bold !important;
+    }
+
+    thead > tr > th {
+        background-image: linear-gradient(to bottom, #f9f9f9 , #f0f0f0) !important;
+        background-color: #f9f9f9 !important;
+    }
 }
